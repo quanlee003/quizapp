@@ -1,0 +1,393 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font: 12px "Century Gothic", "Times Roman", sans-serif;
+    background: #eee;
+    min-height: 550px;
+    background-attachment: fixed;
+    background: url(../image/bg.jpg);
+    min-height: 100vh;
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.boxbox {
+    margin: auto!important;
+    border: 1px solid #d92027;
+    border-radius: 20px;
+    padding: 10px 60px 50px;
+    display: inline-block;
+    background-color: rgba(209, 232, 248, 0.8);
+}
+
+.boxbox img {
+    max-width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.title-first {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.title-second {
+    font-size: 16px;
+}
+
+.buttonbox {
+    margin: auto;
+    width: 250px;
+}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+}
+
+.pure-button {
+    border-radius: 5px;
+    min-width: 250px;
+    border: 1px solid #ccc;
+}
+
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444;
+    color: rgba(0, 0, 0, 0.80);
+    border: 1px solid #999;
+    border: none rgba(0, 0, 0, 0);
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.pure-button {
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.student {
+    width: 36rem !important;
+}
+
+.teacher {
+    width: 20rem !important;
+}
+
+.left-sidebar {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    z-index: 101;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-align: center;
+    bottom: unset;
+    width: 12rem;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 4px 0px;
+    padding-top: 0;
+}
+
+
+
+.left-sidebar .left-sidebar-container {
+    display: block;
+    position: relative;
+    z-index: 4;
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.left-sidebar .left-sidebar-container .left-sidebar-item {
+    width: 100%;
+    outline: none;
+    opacity: 1;
+}
+
+.left-sidebar .left-sidebar-container .left-sidebar-item:hover {
+    background-color:rgb(234,244,252);
+    cursor: pointer;
+}
+
+.left-sidebar .left-sidebar-container .left-sidebar-item a {
+    text-decoration: none;
+}
+
+.left-sidebar .left-sidebar-container .left-sidebar-item .left-sidebar-content {
+    height: 100%;
+    user-select: none;
+    padding: 12px 16px 12px 0px;
+    display: block;
+}
+
+.bg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-left: 36rem;
+    max-height: calc(100% + clamp(-96px, -4vmin, -32px));
+}
+
+
+
+
+
+
+
+
+.panel {
+    border-color: #eee;
+    margin: 40px 20vh;
+    padding: 20px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    width: 80%;
+}
+
+.panel2 {
+    color: #fff;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    margin-top:15vh;
+    padding: 20px;
+    width: 100%;
+}
+
+.title {
+    font-family: 'typo';
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgb(226, 27, 60);
+    height: 60px;
+}
+
+.logo {
+    font-family: 'typo';
+    font-size: 35px;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.title1 {
+    font: 12px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.sub1 {
+    color: #FFFFFF;
+    background: #0000ff;
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.logb {
+    color: #FFFFFF;
+    background: #0000ff;
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.logb:hover {
+    color: lightyellow;
+}
+
+.sub {
+    color: #FFFFFF;
+    background: #0000ff;
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.sub:hover {
+    background-color: #000066;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: #323232;
+    background-color: #202020;
+}
+
+.footer a {
+    margin: 25px;
+    color: #0000ff;
+    text-decoration: none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.box {
+    padding: 9px;
+}
+
+hr {
+    color: #000000;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.log1 {
+    font: 15px 'Ubuntu', sans-serif;
+    color: #0000ff;
+    margin-left: 10px;
+}
+
+.log {
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 5px;
+    color: #ffffb3;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 15px;
+}
+
+.log:hover {
+    color: #ffffff;
+    border-top: 2px solid;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+.funkyradio div {
+    clear: both;
+}
+
+.funkyradio label {
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+
+.funkyradio input[type="radio"]:empty,
+.funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label,
+.funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before,
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: rgb(226, 27, 60);
+    border-radius: 3px 0 0 3px;
+    padding: 16px 0;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: rgb(38, 137, 12);
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before,
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-success input[type="radio"]:checked ~ label {
+    background-color: rgb(38, 137, 12) !important;
+    transition: all ease .3s;
+}
+
+
+
+.funkyradio-success input[type="radio"]:checked ~ label:before,
+.funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: rgb(38, 137, 12);
+    padding: 16px 0;
+    transition: all ease .3s;
+}
